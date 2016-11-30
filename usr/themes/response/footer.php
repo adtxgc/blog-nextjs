@@ -12,5 +12,14 @@
 <?php $this->footer(); ?>
 <script type="text/javascript" src="http://libs.baidu.com/jquery/1.9.1/jquery.min.js"></script>
 <script type="text/javascript" src="<?php $this->options->themeUrl('./js/header.js'); ?>"></script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?096a60fdf44b9d9611f9736b597b8dea";
+  var s = document.getElementsByTagName("script")[0];
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
 </body>
 </html>
